@@ -59,6 +59,15 @@ header li {
     bottom: 0;
     width: 100%;
 }
+.footer1 { 
+    background-color: #1d1a1a;
+    color: #f4f4f4;
+    text-align: center;
+    flex: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 img{
     background-color: #f4f4f4;
     width: 400px;
@@ -102,6 +111,12 @@ a {
         bottom: 0;
         width: 100%;
     }
+    .footer1 { 
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
 
 }
 
@@ -120,4 +135,5 @@ a {
         bottom: 0;
         width: 100%;
     }
+    
 }
