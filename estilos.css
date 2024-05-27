@@ -53,11 +53,13 @@ header li {
 }
 
 .footer { 
-    background: #333;
-    color: #fff;
+    background-color: #1d1a1a;
+    color: #f4f4f4;
     text-align: center;
-    padding: 1em 0;
-    margin-top: 2em;
+    flex: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 img{
     background-color: #f4f4f4;
@@ -96,5 +98,25 @@ a {
         display: none;
         
     }
+    .footer { 
+        background-color: #1d1a1a;
+        color: #f4f4f4;
+        text-align: center;
+        flex: auto;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+    }
 
+}
+@media (max-width: 880px) {
+    .footer { 
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        margin-top: 2em;
+        position: relative;
+        
+    }
 }
